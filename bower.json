@@ -1,0 +1,22 @@
+{
+  "name": "angularFire",
+  "version": "0.0.0",
+  "authors": [
+    "git-username <git-email-address>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "angular-route": "~1.2.21",
+    "firebase": "~1.0.19",
+    "angularfire": "~0.8.0"
+  }
+}
