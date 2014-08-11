@@ -5,9 +5,19 @@
 </head>
 <body ng-controller="fireCtrl as ctrl">
 
-	<input type="text" ng-model="ctrl.fireVal"></input>
+	<h2>Saving Values to Firebase</h2>
 
-	<p>{{ ctrl.fireVal }}</p>
+	<button ng-click="fireVals.$save()">send fireVal</button>
+
+	<input type="text" ng-model="fireVals.fireVal"></input>
+
+	<p>{{ fireVals.fireVal }}</p>
+
+	<h2>Three Way Data Binding</h2>
+
+	<input type="text" ng-model="fireBindings.fireVal"></input>
+
+	<p>{{ fireBindings.fireVal }}</p>
 
 <!-- loading script files -->
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
